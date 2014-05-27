@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 11.579 sec <<< FAILURE!
+And I should also see the "Record" button(Scenario: Go to sky's Find&Watch TV page, search for Game of thrones s4 episodes and for all the returned episodes I can see the record and watch now button)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at StepDef.TestStepDef.I_should_see_the_button(TestStepDef.java:47)
+	at ✽.And I should also see the "Record" button(Test.feature:8)
+
+Scenario: Go to sky's Find&Watch TV page, search for Game of thrones s4 episodes and for all the returned episodes I can see the record and watch now button  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at StepDef.TestStepDef.I_should_see_the_button(TestStepDef.java:47)
+	at ✽.And I should also see the "Record" button(Test.feature:8)
+
